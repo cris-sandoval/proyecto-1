@@ -13,3 +13,51 @@ body{
     text-align: center;
     background: url(./img/grandes-estantes-biblioteca-modernos-libros-ia-generativa_123447-16170.jpg) no-repeat center center/ cover; 
 }
+.container-center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     justify-content: center;
+}
+.container{
+    width: 50vw;
+    height: 500px;
+    min-height: 400px;
+    background-color: white;
+    border: 3px solid ;
+    border-radius: 50px;
+}
+.container-interno{
+    width: 80%;
+}
+
+#title{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'courgette', cursive;
+}
+#cita{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    font-size: 30px;
+    margin: 20px;
+}
+#autor{
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'courgette', cursive;
+
+}
+#boton-cambiar-cita{
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+}
