@@ -16,15 +16,19 @@ function crearTarea() {
 
         /* crear contenedor de iconos */
         let icon = document.createElement('div')
+
         icon.classList.add('iconos')
         nuevaTarea.appendChild(icon)
 
+
         /* icono completar */
+
         let completar = document.createElement('i')
         completar.classList.add('bi', 'bi-check-circle-fill', 'icono-completar')
         completar.addEventListener('click',tareaCompletada)
         icon.appendChild(completar)
 
+        
         let eliminar = document.createElement('i')
         eliminar.classList.add('bi', 'bi-trash3-fill', 'icono-elimnar')
         eliminar.addEventListener('click', eliminarTarea)
